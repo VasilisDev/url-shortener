@@ -1,0 +1,33 @@
+{
+	"name": "shorturl",
+	"version": "0.0.1",
+	"description": "API project for freeCodeCamp",
+	"main": "server.js",
+		"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.15.2",
+		"cors": "^2.8.1",
+		"dns": "^0.2.2",
+		"express": "^5.0.0-alpha.2",
+		"ip": "^1.1.5",
+		"mongodb": "^2.2.5",
+		"mongoose": "^4.5.7",
+		"mongoose-sequence": "^4.0.1",
+		"nodemon": "^1.18.3"
+	},
+	"engines": {
+		"node": "4.4.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT"
+}
